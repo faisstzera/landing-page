@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  text-align: center;
+  }
+
+.header img {
+  width: 200px;
+  height: 100px;
+}
+
+.element img{
+  width: 200px;
+  height: 200px;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  background-color: #1F2937;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 40px;
+  
+}
+
+ul{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+li{
+  display: flex;
+  list-style: none;
+  padding-top: 16px;
+}
+
+ul a{
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.presentation{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding-left: 20%;
+  padding-right: 19%;
+  padding-bottom: 60px;
+  text-align: left;
+}
+
+.presentation img{
+  width: 600px;
+  height: 300px;
+}
+
+.presentation-text{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 2;
+  gap: 16px;
+}
+
+.big-text{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.small-text{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button{
+  display: flex;
+  border: #e5e7eb;
+  border-width: 1px;
+  background-color: #3882f6;
+  height: 40px;
+  width: 140px;
+  border-radius: 12px;
+  padding-left: 40px;
+  padding-top: 12px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  gap: 32px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.information-section{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.element{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  align-items: center;
+  gap: 8px;
+}
+
+.element img{
+  border: 6px solid #3882f6;
+  border-radius: 12px;
+  border-width: 6px;
+}
+
+.element .small-text{
+  color: #1F2937;
+  text-align: left;
+}
+
+.quote{
+  background-color: #e5e7eb;
+  color: #494949;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  font-style: italic;
+  font-weight: 300;
+  gap: 16px;
+
+}
+
+.quote .source{
+  text-align: right;
+  padding-right: 320px;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.sign-up{
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 280px;
+  margin-left: 280px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 8px;
+}
+
+.sign-up .big-text{
+  font-size: 32px;
+}
+
+.sign-up button{
+  border: 6px solid #e5e7eb;
+  border-width: 3px;
+  text-align: center;
+  padding-top: 8px;
+  padding-left: 36px;
+}
+
+footer{
+  color: #e5e7eb;
+  background-color: #1F2937;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
